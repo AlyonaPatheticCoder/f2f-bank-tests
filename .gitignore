@@ -1,2 +1,21 @@
-.idea
-venv
+.idea/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Environment
+.env
+.env.*
+!.env.example
